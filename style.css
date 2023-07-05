@@ -1,114 +1,144 @@
 * {
+/*Box model stuff*/
   margin: 0;
   padding: 0;
   border: 0;
+/*Typography stuff*/
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
+/*Box model stuff*/
   background-color: rgb(212, 228, 241);
 }
 
 header { 
-  background-color: rgb(59, 143, 208);
-  font-size: 20px;
+/*Box model stuff*/
   padding: 2px 0;
+  background-color: rgb(59, 143, 208);
+/*Typography stuff*/
+  font-size: 20px;
 }
 
 a {
-  color: rgb(94, 94, 249);
+/*Typography stuff*/
   text-decoration: none;
+  color: rgb(94, 94, 249);
 }
 
 .links-container > li {
+/*Display stuff*/
   display: inline-block;
+/*Box model stuff*/
   margin: 0 16px;
   padding: 10px;
 }
 
 .links-container > li > a {
-  color: white;
+/*Typography stuff*/
   text-decoration: none;
   text-transform: capitalize;
+  color: white;
 }
 
 .links-container > li:first-child  > a{
-  background-color: rgb(235, 235, 235);
-  color: rgb(255, 35, 193);
+/*Box model stuff*/
   padding: 10px 20px;
+  background-color: rgb(235, 235, 235);
+/*Typography stuff*/
   font-weight: bolder;
+  color: rgb(255, 35, 193);
 }
 
 .main-container {
+/*Box model stuff*/
   width: 100%;
   margin-top: 20px;
+/*Typography stuff*/
   text-align: center;
 }
 
 .left-content , .center-content , .rigth-content {
+/*Display stuff*/
   display: inline-block;
-  vertical-align: top;
-  background-color: rgb(255, 255, 255);
+/*Box model stuff*/
   padding: 5px;
   border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+/*Miscellaneous*/
+  vertical-align: top;
 }
 
 .left-content {
+/*Box model stuff*/
   width: 15%;
 }
 
 .center-content {
-  border-radius: 8px 100px 8px 8px;
+/*Box model stuff*/
   width: 52%;
+  border-radius: 8px 100px 8px 8px;
+/*Typography stuff*/
   text-align: left;
 }
 
 .rigth-content {
+/*Box model stuff*/
   width: 25%;
 }
 
 #cadu-img {
+/*Box model stuff*/
   width: 90%;
-  padding-top: 10px;
-  padding-bottom: 15px;
   margin-bottom: 6px;
+  padding-bottom: 15px;
+  padding-top: 10px;
   border-bottom: 3px solid rgb(205, 205, 205);
 }
 
 .main-container > .left-content > div {
-  text-align: left;
+/*Box model stuff*/
   padding-left: 10px;
+/*Typography stuff*/
+  text-align: left;
 }
 
 .sub-name {
-  color: rgb(20, 140, 214);
+/*Typography stuff*/
   font-weight: bolder;
+  color: rgb(20, 140, 214);
 }
 
 .main-container > .left-content > div > p:first-of-type {
+/*Box model stuff*/
   margin-top: 10px;
 }
 
 .main-container > .left-content > div > p {
+/*Typography stuff*/
   color: rgb(134, 134, 134);
 }
 
 .main-container > .left-content > div {
-  padding-bottom: 8px;
+/*Box model stuff*/
   margin-bottom: 6px;
+  padding-bottom: 8px;
   border-bottom: 1px solid rgb(205, 205, 205);
 }
 
 .edit-profile {
+/*Typography stuff*/
   text-decoration: none;
   color: rgb(94, 94, 249);
 }
 
 .list-itens {
+/*Miscellaneous*/
   list-style: none;
 }
 
 .list-itens > li {
+/*Box model stuff*/
   margin: 2px 0;
   padding: 5px 0;
   border: 1px solid rgb(229, 236, 242);
@@ -116,29 +146,36 @@ a {
 }
 
 .list-itens > li > a {
+/*Typography stuff*/
   text-decoration: none;
   color: rgb(94, 94, 249);
 }
 
 .container {
-  margin-top: 20px;
+/*Box model stuff*/
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 .main-name {
+/*Box model stuff*/
+  margin-bottom: 8px;
+/*Typography stuff*/
   font-size: 30px;
   font-weight: 300;
-  margin-bottom: 8px;
 }
 
 .sub-info {
-  color: rgb(134, 134, 134);;
+/*Typography stuff*/
+  color: rgb(134, 134, 134);;;
 }
 
 .catchphrase {
-  border: 1px solid rgb(205, 205, 205);
-  color: rgb(134, 134, 134);
-  margin: 20px 0;
+/*Box model stuff*/
   max-width: 90%;
+  margin: 20px 0;
   padding: 10px;
+  border: 1px solid rgb(205, 205, 205);
+/*Typography stuff*/
+  color: rgb(134, 134, 134);
 }

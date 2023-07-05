@@ -167,7 +167,7 @@ a {
 
 .sub-info {
 /*Typography stuff*/
-  color: rgb(134, 134, 134);;;
+  color: rgb(134, 134, 134);
 }
 
 .catchphrase {
@@ -180,15 +180,29 @@ a {
   color: rgb(134, 134, 134);
 }
 
+.container-center-itens {
+/*Box model stuff*/
+  margin-right: 42px;
+  padding: 10px 0;
+  border-bottom: 1px;
+  border-top: 1px;
+  border-style: solid;
+  border-color: rgb(205, 205, 205);
+}
+
 .center-itens {
+/*Display stuff*/
   display: inline-block;
+/*Box model stuff*/
   margin-right: 16px;
 }
 
 .center-itens > p {
+/*Typography stuff*/
   color: rgb(134, 134, 134);
 }
 
 .itens-number {
+/*Typography stuff*/
   color: rgb(94, 94, 249);
 }

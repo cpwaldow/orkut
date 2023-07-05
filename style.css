@@ -179,3 +179,16 @@ a {
 /*Typography stuff*/
   color: rgb(134, 134, 134);
 }
+
+.center-itens {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.center-itens > p {
+  color: rgb(134, 134, 134);
+}
+
+.itens-number {
+  color: rgb(94, 94, 249);
+}

@@ -63,9 +63,12 @@ a {
   display: inline-block;
 /*Box model stuff*/
   border-radius: 8px;
-  background-color: rgb(255, 255, 255);
 /*Miscellaneous*/
   vertical-align: top;
+}
+
+.left-content , .center-content {
+  background-color: rgb(255, 255, 255);
 }
 
 .left-content , .rigth-content {
@@ -260,4 +263,16 @@ tr:nth-child(even) {
 td {
 /*Box model stuff*/
   padding: 10px 0;
+}
+
+.card {
+  text-align: start;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.card > h2 {
+  margin-bottom: 10px;
 }

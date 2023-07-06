@@ -62,11 +62,14 @@ a {
 /*Display stuff*/
   display: inline-block;
 /*Box model stuff*/
-  padding: 5px;
   border-radius: 8px;
   background-color: rgb(255, 255, 255);
 /*Miscellaneous*/
   vertical-align: top;
+}
+
+.left-content , .rigth-content {
+  padding: 5px;
 }
 
 .left-content {
@@ -205,4 +208,19 @@ a {
 .itens-number {
 /*Typography stuff*/
   color: rgb(94, 94, 249);
+}
+
+.main-info-container {
+  margin: 30px 0 20px 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+.main-info-container > p {
+  margin-left: 20px;
+  border-radius: 8px 8px 0 0;
+  background-color: rgb(149, 168, 203);;
+  padding: 5px 8px;
+  display: inline-block;
+  color: rgb(241, 241, 241);
 }
